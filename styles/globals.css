@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-default-50 font-sans;
+  }
+  label{
+    @apply flex items-center justify-center gap-4;
+  }
+  input {
+    @apply text-center bg-default-200 px-4 py-2 shadow-lg w-1/2;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply text-neutral-900 bg-default-200 shadow-lg px-4 py-2 text-center hover:bg-default-400;
+  }
+}
